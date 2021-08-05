@@ -19,5 +19,5 @@ from page_divide import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('post/', views.Post_page, name='post'),
+    path('', views.Post_page, name='post'),
 ]
