@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 paginator.wsgi:application
+web: gunicorn paginator.wsgi --log-file -
